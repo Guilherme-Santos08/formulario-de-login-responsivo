@@ -15,5 +15,5 @@ body {
    min-width: 10vw; /*Largura minima da página*/
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: center; /*Vai a body no centro da dela*/
 }
