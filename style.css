@@ -43,3 +43,17 @@ main h2::before{
    border-radius: 8px;
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
 }
+
+.input-field{
+   position: relative;
+}
+
+.input-field input {
+   outline: none; /*Tira a bordar de quando clicamos no formulario*/
+   font-size: 0.9rem;
+   color: rba(0, 0, 0, 0.7);
+}
+
+input.input-field input::placeholder{ /*Esse css aqui vai pegar aquela letrinha que fica dentro no fomulario*/
+   color: rba(0, 0, 0, 0.5);
+}
