@@ -57,3 +57,15 @@ main h2::before{
 input.input-field input::placeholder{ /*Esse css aqui vai pegar aquela letrinha que fica dentro no fomulario*/
    color: rba(0, 0, 0, 0.5);
 }
+
+form input[type="submit"] {
+   margin-top: 2rem;
+   padding: 0.4rem;
+   background: linear-gradient(to left, #4776e6, #8e54e9);
+   cursor: pointer;
+   color: white;
+   font-size: 0.9rem;
+   font-weight: 300;
+   border-radius: 4px;
+   transition: all 0.3s ease;
+}
