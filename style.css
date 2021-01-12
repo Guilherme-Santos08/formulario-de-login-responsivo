@@ -38,7 +38,7 @@ main h2::before{
    position: absolute;
    height: 4px;
    width: 25px;
-   bottom: 4px;
+   bottom: 3px;
    left: 0;
    border-radius: 8px;
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
@@ -49,10 +49,15 @@ form{
    flex-direction: column; /*Vai ficar um de baixo do outro bem certinho*/
 }
 
-
 .input-field{
    position: relative;
 }
+
+form .input-field-child{
+   margin-bottom: 1.5rem;
+}
+
+.input-field .underline
 
 .input-field input {
    outline: none; /*Tira a bordar de quando clicamos no formulario*/
@@ -100,6 +105,12 @@ form input[type="submit"]:hover {
    font-size: 0.85rem;
    width: 100%;
    cursor: pointer;
+   margin-top: 1rem;
+}
+
+.footer .social-field a i {
+    margin: 0 0.5rem;
+    width: 15px;
 }
 
 .footer .social-field a {
