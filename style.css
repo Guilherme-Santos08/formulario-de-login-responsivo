@@ -12,7 +12,7 @@ body {
    background: linear-gradient(45deg, #8e2de2, #4a00e0);
    background-repeat: no-repeat;
    min-height: 100vh; /*Altura minima da página*/
-   min-width: 10vw; /*Largura minima da página*/
+   min-width: 100vw; /*Largura minima da página*/
    display: flex;
    align-items: center;
    justify-content: center; /*Vai a body no centro da dela*/
@@ -43,6 +43,12 @@ main h2::before{
    border-radius: 8px;
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
 }
+
+form{
+   display: flex;
+   flex-direction: column; /*Vai ficar um de baixo do outro bem certinho*/
+}
+
 
 .input-field{
    position: relative;
